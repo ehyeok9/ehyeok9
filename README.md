@@ -12,7 +12,7 @@ public record Developer(
 
     public static Developer hyeokgyuLee() {
         return new Developer(
-            "",
+            "Who strives to validate the process through outcomes.",
             new String[]{
                 "Bachelor's Degree in Computer Science at KMU (19.03 ~ 25.02)",
                 "Research Intern at STAIRS Lab, UCI (23.06 ~ 23.08)"
