@@ -7,7 +7,7 @@ public record Developer(
 ) {
     public record Contact(
         String email,
-        String instagram
+        String linkedIn
     ) {}
 
     public static Developer hyeokgyuLee() {
@@ -20,7 +20,7 @@ public record Developer(
                 "Software Engineer @ Meritz Fire & Marine Insurance Co., Ltd. (24.12 ~ ing)"
             },
             new String[]{"Spring Framework/Boot", "DevOps", "Workout"},
-            new Contact("ehyeok9@gmail.com", "https://www.instagram.com/e_hyeok9/")
+            new Contact("ehyeok9@gmail.com", "www.linkedin.com/in/e-hyeok9")
         );
     }
 }
